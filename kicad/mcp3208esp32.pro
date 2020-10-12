@@ -1,4 +1,4 @@
-update=dom 04 out 2020 11:01:21
+update=seg 12 out 2020 11:00:25
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=mcp3208eps32.net
+LastNetListRead=mcp3208esp32.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -43,6 +43,8 @@ TrackWidth2=0.5
 TrackWidth3=0.7
 ViaDiameter1=0.8
 ViaDrill1=0.4
+ViaDiameter2=1
+ViaDrill2=0.3
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25

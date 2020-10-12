@@ -14,44 +14,44 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic_MountingPin:Conn_01x20_MountingPin ESPLEFT1
+L Connector_Generic:Conn_01x20 ESPLEFT1
 U 1 1 5F79C20C
 P 2450 2400
 F 0 "ESPLEFT1" V 2675 2268 50  0000 C CNN
-F 1 "Conn_01x20_MountingPin" V 2584 2268 50  0000 C CNN
+F 1 "Conn_01x20" V 2584 2268 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical" H 2450 2400 50  0001 C CNN
 F 3 "~" H 2450 2400 50  0001 C CNN
 	1    2450 2400
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic_MountingPin:Conn_01x20_MountingPin HDRLEFT1
+L Connector_Generic:Conn_01x20 HDRLEFT1
 U 1 1 5F79DBF9
 P 2450 1950
 F 0 "HDRLEFT1" V 2675 1818 50  0000 C CNN
-F 1 "Conn_01x20_MountingPin" V 2584 1818 50  0000 C CNN
+F 1 "Conn_01x20" V 2584 1818 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 2450 1950 50  0001 C CNN
 F 3 "~" H 2450 1950 50  0001 C CNN
 	1    2450 1950
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic_MountingPin:Conn_01x20_MountingPin ESPRIGHT1
+L Connector_Generic:Conn_01x20 ESPRIGHT1
 U 1 1 5F79F80C
 P 2450 3650
 F 0 "ESPRIGHT1" V 2675 3518 50  0000 C CNN
-F 1 "Conn_01x20_MountingPin" V 2584 3518 50  0000 C CNN
+F 1 "Conn_01x20" V 2584 3518 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical" H 2450 3650 50  0001 C CNN
 F 3 "~" H 2450 3650 50  0001 C CNN
 	1    2450 3650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic_MountingPin:Conn_01x20_MountingPin HDRRIGHT1
+L Connector_Generic:Conn_01x20 HDRRIGHT1
 U 1 1 5F7A039E
 P 2450 4200
 F 0 "HDRRIGHT1" V 2675 4068 50  0000 C CNN
-F 1 "Conn_01x20_MountingPin" V 2584 4068 50  0000 C CNN
+F 1 "Conn_01x20" V 2584 4068 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 2450 4200 50  0001 C CNN
 F 3 "~" H 2450 4200 50  0001 C CNN
 	1    2450 4200
@@ -147,7 +147,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf" H 5900 3300 50 
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic_MountingPin:Conn_01x04_MountingPin HDRADC1
+L Connector_Generic:Conn_01x04 HDRADC1
 U 1 1 5F7B7F43
 P 4850 3100
 F 0 "HDRADC1" H 4938 3014 50  0000 L CNN
@@ -166,11 +166,11 @@ Wire Wire Line
 Wire Wire Line
 	4650 3300 5200 3300
 $Comp
-L Connector_Generic_MountingPin:Conn_01x04_MountingPin VIN1
+L Connector_Generic:Conn_01x04 VIN1
 U 1 1 5F7BFE67
 P 4600 1550
 F 0 "VIN1" V 4825 1418 50  0000 C CNN
-F 1 "Conn_01x04_MountingPin" V 4734 1418 50  0000 C CNN
+F 1 "Conn_01x04" V 4734 1418 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-4_P5.08mm" H 4600 1550 50  0001 C CNN
 F 3 "~" H 4600 1550 50  0001 C CNN
 	1    4600 1550
@@ -223,8 +223,6 @@ Wire Wire Line
 	5800 1750 6100 1750
 Wire Wire Line
 	6100 1750 6150 1750
-Wire Wire Line
-	6650 1750 6650 4000
 Wire Wire Line
 	6650 4000 5600 4000
 Wire Wire Line
@@ -313,7 +311,6 @@ Wire Wire Line
 Connection ~ 7500 1750
 Wire Wire Line
 	6650 1750 6750 1750
-Connection ~ 6650 1750
 Wire Wire Line
 	7450 1800 7300 1800
 Wire Wire Line
@@ -440,9 +437,6 @@ Wire Wire Line
 	6450 1750 6450 700 
 Wire Wire Line
 	6450 700  6950 700 
-Connection ~ 6450 1750
-Wire Wire Line
-	6450 1750 6650 1750
 Wire Wire Line
 	6950 700  7400 700 
 Connection ~ 6950 700 
@@ -498,58 +492,47 @@ Wire Wire Line
 Wire Wire Line
 	8750 3200 6400 3200
 $Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin AID1
+L Connector_Generic:Conn_01x02 AID1
 U 1 1 5F8BB3AE
 P 10100 2000
 F 0 "AID1" H 10188 1914 50  0000 L CNN
-F 1 "Conn_01x02_MountingPin" H 10188 1823 50  0000 L CNN
+F 1 "Conn_01x02" H 10188 1823 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10100 2000 50  0001 C CNN
 F 3 "~" H 10100 2000 50  0001 C CNN
 	1    10100 2000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin AIC1
+L Connector_Generic:Conn_01x02 AIC1
 U 1 1 5F8BBE73
 P 10100 2350
 F 0 "AIC1" H 10188 2264 50  0000 L CNN
-F 1 "Conn_01x02_MountingPin" H 10188 2173 50  0000 L CNN
+F 1 "Conn_01x02" H 10188 2173 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10100 2350 50  0001 C CNN
 F 3 "~" H 10100 2350 50  0001 C CNN
 	1    10100 2350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin AIB1
+L Connector_Generic:Conn_01x02 AIB1
 U 1 1 5F8BC796
 P 10100 2750
 F 0 "AIB1" H 10188 2664 50  0000 L CNN
-F 1 "Conn_01x02_MountingPin" H 10188 2573 50  0000 L CNN
+F 1 "Conn_01x02" H 10188 2573 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10100 2750 50  0001 C CNN
 F 3 "~" H 10100 2750 50  0001 C CNN
 	1    10100 2750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin AIA1
+L Connector_Generic:Conn_01x02 AIA1
 U 1 1 5F8BD07B
 P 10100 3150
 F 0 "AIA1" H 10188 3064 50  0000 L CNN
-F 1 "Conn_01x02_MountingPin" H 10188 2973 50  0000 L CNN
+F 1 "Conn_01x02" H 10188 2973 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10100 3150 50  0001 C CNN
 F 3 "~" H 10100 3150 50  0001 C CNN
 	1    10100 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin AIGND1
-U 1 1 5F8BD987
-P 4550 4650
-F 0 "AIGND1" H 4638 4564 50  0000 L CNN
-F 1 "Conn_01x02_MountingPin" H 4638 4473 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 4550 4650 50  0001 C CNN
-F 3 "~" H 4550 4650 50  0001 C CNN
-	1    4550 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -602,12 +585,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 4850 9350 4850
 Wire Wire Line
-	4350 4750 4350 4650
-Wire Wire Line
-	4350 4650 4350 2050
-Wire Wire Line
 	4350 2050 4500 2050
-Connection ~ 4350 4650
 Connection ~ 4500 2050
 Wire Wire Line
 	7500 1750 7500 1250
@@ -752,7 +730,7 @@ Wire Wire Line
 	6150 1450 6150 1350
 Connection ~ 6150 1450
 Wire Wire Line
-	5100 1200 5100 1750
+	5100 1200 5100 1350
 Wire Wire Line
 	4200 1750 4200 2050
 Connection ~ 5100 1750
@@ -775,4 +753,38 @@ Connection ~ 5900 2600
 Connection ~ 5900 2050
 Wire Wire Line
 	5900 2050 6100 2050
+Wire Wire Line
+	6650 1750 6650 1000
+Wire Wire Line
+	6650 1000 5250 1000
+Wire Wire Line
+	5250 1000 5250 1350
+Wire Wire Line
+	5250 1350 5100 1350
+Connection ~ 5100 1350
+Wire Wire Line
+	5100 1350 5100 1750
+Wire Wire Line
+	4350 4650 4350 2050
+Wire Wire Line
+	4350 4750 4350 4650
+Connection ~ 4350 4650
+$Comp
+L Connector_Generic:Conn_01x02 AIGND1
+U 1 1 5F8BD987
+P 4550 4650
+F 0 "AIGND1" H 4638 4564 50  0000 L CNN
+F 1 "Conn_01x02" H 4638 4473 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 4550 4650 50  0001 C CNN
+F 3 "~" H 4550 4650 50  0001 C CNN
+	1    4550 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4000 6650 2100
+Wire Wire Line
+	6650 2100 6450 2100
+Wire Wire Line
+	6450 2100 6450 1750
+Connection ~ 6450 1750
 $EndSCHEMATC
