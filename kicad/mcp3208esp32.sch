@@ -325,50 +325,6 @@ Connection ~ 7300 2250
 Connection ~ 6100 2050
 $Comp
 L Amplifier_Operational:LM324 U2
-U 1 1 5F81E2F1
-P 9050 1100
-F 0 "U2" H 9050 733 50  0000 C CNN
-F 1 "LM324" H 9050 824 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 9000 1200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9100 1300 50  0001 C CNN
-	1    9050 1100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U2
-U 2 1 5F82090A
-P 9050 1600
-F 0 "U2" H 9050 1233 50  0000 C CNN
-F 1 "LM324" H 9050 1324 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 9000 1700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9100 1800 50  0001 C CNN
-	2    9050 1600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U2
-U 3 1 5F821661
-P 9050 2100
-F 0 "U2" H 9050 1733 50  0000 C CNN
-F 1 "LM324" H 9050 1824 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 9000 2200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9100 2300 50  0001 C CNN
-	3    9050 2100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U2
-U 4 1 5F822DE8
-P 9050 2600
-F 0 "U2" H 9050 2233 50  0000 C CNN
-F 1 "LM324" H 9050 2324 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 9000 2700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9100 2800 50  0001 C CNN
-	4    9050 2600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U2
 U 5 1 5F869A13
 P 7050 1000
 F 0 "U2" H 7008 1046 50  0000 L CNN
@@ -377,50 +333,6 @@ F 2 "Package_DIP:DIP-14_W7.62mm" H 7000 1100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7100 1200 50  0001 C CNN
 	5    7050 1000
 	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U1
-U 1 1 5F86EAD4
-P 9050 3150
-F 0 "U1" H 9050 2783 50  0000 C CNN
-F 1 "LM324" H 9050 2874 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 9000 3250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9100 3350 50  0001 C CNN
-	1    9050 3150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U1
-U 2 1 5F870AF0
-P 9050 3700
-F 0 "U1" H 9050 3333 50  0000 C CNN
-F 1 "LM324" H 9050 3424 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 9000 3800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9100 3900 50  0001 C CNN
-	2    9050 3700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U1
-U 3 1 5F87228F
-P 9050 4200
-F 0 "U1" H 9050 3833 50  0000 C CNN
-F 1 "LM324" H 9050 3924 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 9000 4300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9100 4400 50  0001 C CNN
-	3    9050 4200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U1
-U 4 1 5F873959
-P 9050 4750
-F 0 "U1" H 9050 4383 50  0000 C CNN
-F 1 "LM324" H 9050 4474 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 9000 4850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9100 4950 50  0001 C CNN
-	4    9050 4750
-	-1   0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:LM324 U1
@@ -450,140 +362,39 @@ Wire Wire Line
 Connection ~ 7150 2250
 Wire Wire Line
 	7150 2250 6100 2250
-Wire Wire Line
-	8750 1100 8300 1100
-Wire Wire Line
-	8300 1100 8300 2800
-Wire Wire Line
-	8300 2800 6400 2800
-Wire Wire Line
-	8750 1600 8700 1600
-Wire Wire Line
-	8350 1600 8350 2900
-Wire Wire Line
-	8350 2900 6400 2900
-Wire Wire Line
-	8750 2100 8700 2100
-Wire Wire Line
-	8400 2100 8400 3000
-Wire Wire Line
-	8400 3000 6400 3000
-Wire Wire Line
-	8750 2600 8700 2600
-Wire Wire Line
-	8450 2600 8450 3100
-Wire Wire Line
-	8450 3100 6400 3100
-Wire Wire Line
-	8800 4750 8750 4750
-Wire Wire Line
-	6400 4750 6400 3500
-Connection ~ 8750 4750
-Wire Wire Line
-	8750 4750 8650 4750
-Wire Wire Line
-	8750 4200 8700 4200
-Wire Wire Line
-	6450 4200 6450 3400
-Wire Wire Line
-	6450 3400 6400 3400
-Wire Wire Line
-	8750 3150 8750 3200
-Wire Wire Line
-	8750 3200 6400 3200
 $Comp
 L Connector_Generic:Conn_01x02 AID1
 U 1 1 5F8BB3AE
-P 10100 2000
-F 0 "AID1" H 10188 1914 50  0000 L CNN
-F 1 "Conn_01x02" H 10188 1823 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10100 2000 50  0001 C CNN
-F 3 "~" H 10100 2000 50  0001 C CNN
-	1    10100 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 AIC1
-U 1 1 5F8BBE73
-P 10100 2350
-F 0 "AIC1" H 10188 2264 50  0000 L CNN
-F 1 "Conn_01x02" H 10188 2173 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10100 2350 50  0001 C CNN
-F 3 "~" H 10100 2350 50  0001 C CNN
-	1    10100 2350
+P 6750 2800
+F 0 "AID1" H 6838 2714 50  0000 L CNN
+F 1 "Conn_01x02" H 6838 2623 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6750 2800 50  0001 C CNN
+F 3 "~" H 6750 2800 50  0001 C CNN
+	1    6750 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 AIB1
 U 1 1 5F8BC796
-P 10100 2750
-F 0 "AIB1" H 10188 2664 50  0000 L CNN
-F 1 "Conn_01x02" H 10188 2573 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10100 2750 50  0001 C CNN
-F 3 "~" H 10100 2750 50  0001 C CNN
-	1    10100 2750
+P 6750 3200
+F 0 "AIB1" H 6838 3114 50  0000 L CNN
+F 1 "Conn_01x02" H 6838 3023 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6750 3200 50  0001 C CNN
+F 3 "~" H 6750 3200 50  0001 C CNN
+	1    6750 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 AIA1
 U 1 1 5F8BD07B
-P 10100 3150
-F 0 "AIA1" H 10188 3064 50  0000 L CNN
-F 1 "Conn_01x02" H 10188 2973 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10100 3150 50  0001 C CNN
-F 3 "~" H 10100 3150 50  0001 C CNN
-	1    10100 3150
+P 6750 3400
+F 0 "AIA1" H 6838 3314 50  0000 L CNN
+F 1 "Conn_01x02" H 6838 3223 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6750 3400 50  0001 C CNN
+F 3 "~" H 6750 3400 50  0001 C CNN
+	1    6750 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9900 2000 9700 2000
-Wire Wire Line
-	9700 2000 9700 1200
-Wire Wire Line
-	9700 1200 9350 1200
-Wire Wire Line
-	9900 2100 9650 2100
-Wire Wire Line
-	9650 2100 9650 1700
-Wire Wire Line
-	9650 1700 9350 1700
-Wire Wire Line
-	9900 2350 9600 2350
-Wire Wire Line
-	9600 2350 9600 2200
-Wire Wire Line
-	9600 2200 9350 2200
-Wire Wire Line
-	9900 2450 9900 2700
-Wire Wire Line
-	9900 2700 9350 2700
-Wire Wire Line
-	9900 2750 9500 2750
-Wire Wire Line
-	9500 2750 9500 3250
-Wire Wire Line
-	9500 3250 9350 3250
-Wire Wire Line
-	9900 2850 9550 2850
-Wire Wire Line
-	9550 2850 9550 3800
-Wire Wire Line
-	9550 3800 9350 3800
-Wire Wire Line
-	9950 3150 9900 3150
-Wire Wire Line
-	9600 3150 9600 4300
-Wire Wire Line
-	9600 4300 9350 4300
-Connection ~ 9900 3150
-Wire Wire Line
-	9900 3150 9600 3150
-Wire Wire Line
-	9900 3250 9650 3250
-Wire Wire Line
-	9650 3250 9650 4850
-Wire Wire Line
-	9650 4850 9350 4850
 Wire Wire Line
 	4350 2050 4500 2050
 Connection ~ 4500 2050
@@ -592,82 +403,10 @@ Wire Wire Line
 Wire Wire Line
 	2150 4400 2150 3850
 Wire Wire Line
-	9350 1000 9350 650 
-Wire Wire Line
-	9350 650  8750 650 
-Wire Wire Line
-	8750 650  8750 1100
-Connection ~ 8750 1100
-Wire Wire Line
-	9350 1500 9350 1400
-Wire Wire Line
-	9350 1400 8700 1400
-Wire Wire Line
-	8700 1400 8700 1600
-Connection ~ 8700 1600
-Wire Wire Line
-	8700 1600 8350 1600
-Wire Wire Line
-	9350 2000 9350 1850
-Wire Wire Line
-	9350 1850 8700 1850
-Wire Wire Line
-	8700 1850 8700 2100
-Connection ~ 8700 2100
-Wire Wire Line
-	8700 2100 8400 2100
-Wire Wire Line
-	9350 2500 9350 2350
-Wire Wire Line
-	9350 2350 8700 2350
-Wire Wire Line
-	8700 2350 8700 2600
-Connection ~ 8700 2600
-Wire Wire Line
-	8700 2600 8450 2600
-Wire Wire Line
-	9350 3050 9350 2900
-Wire Wire Line
-	9350 2900 8750 2900
-Wire Wire Line
-	8750 2900 8750 3150
-Connection ~ 8750 3150
-Wire Wire Line
-	9350 3600 9350 3450
-Wire Wire Line
-	9350 3450 8750 3450
-Wire Wire Line
-	8750 3450 8750 3700
-Wire Wire Line
-	7500 3700 7500 1800
+	7500 3700 7500 3400
 Wire Wire Line
 	5900 3700 7500 3700
 Connection ~ 7500 1800
-Wire Wire Line
-	8750 3700 8250 3700
-Wire Wire Line
-	8250 3700 8250 3300
-Wire Wire Line
-	6400 3300 8250 3300
-Connection ~ 8750 3700
-Wire Wire Line
-	9350 4100 9350 3950
-Wire Wire Line
-	9350 3950 8700 3950
-Wire Wire Line
-	8700 3950 8700 4200
-Connection ~ 8700 4200
-Wire Wire Line
-	8700 4200 6450 4200
-Wire Wire Line
-	9350 4650 9350 4500
-Wire Wire Line
-	9350 4500 8650 4500
-Wire Wire Line
-	8650 4500 8650 4750
-Connection ~ 8650 4750
-Wire Wire Line
-	8650 4750 6400 4750
 $Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 5F841722
@@ -731,8 +470,6 @@ Wire Wire Line
 Connection ~ 6150 1450
 Wire Wire Line
 	5100 1200 5100 1350
-Wire Wire Line
-	4200 1750 4200 2050
 Connection ~ 5100 1750
 Wire Wire Line
 	5100 1750 5200 1750
@@ -787,4 +524,56 @@ Wire Wire Line
 Wire Wire Line
 	6450 2100 6450 1750
 Connection ~ 6450 1750
+$Comp
+L Connector_Generic:Conn_01x02 AIC1
+U 1 1 5F8BBE73
+P 6750 3000
+F 0 "AIC1" H 6838 2914 50  0000 L CNN
+F 1 "Conn_01x02" H 6838 2823 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6750 3000 50  0001 C CNN
+F 3 "~" H 6750 3000 50  0001 C CNN
+	1    6750 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2800 6550 2800
+Wire Wire Line
+	6400 2900 6550 2900
+Wire Wire Line
+	6400 3000 6550 3000
+Wire Wire Line
+	6400 3100 6550 3100
+Wire Wire Line
+	6400 3200 6550 3200
+Wire Wire Line
+	6400 3300 6550 3300
+Wire Wire Line
+	6400 3400 6550 3400
+Wire Wire Line
+	6400 3500 6550 3500
+$Comp
+L Connector_Generic:Conn_01x04 VIN?
+U 1 1 5F923D5B
+P 7800 3200
+F 0 "VIN?" V 8025 3068 50  0000 C CNN
+F 1 "Conn_01x04" V 7934 3068 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-4_P5.08mm" H 7800 3200 50  0001 C CNN
+F 3 "~" H 7800 3200 50  0001 C CNN
+	1    7800 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 3400 7500 3400
+Connection ~ 7500 3400
+Wire Wire Line
+	7500 3400 7500 1800
+Wire Wire Line
+	7700 3400 7800 3400
+Connection ~ 7700 3400
+Wire Wire Line
+	7800 3400 7900 3400
+Connection ~ 7800 3400
+Wire Wire Line
+	7900 3400 8000 3400
+Connection ~ 7900 3400
 $EndSCHEMATC
