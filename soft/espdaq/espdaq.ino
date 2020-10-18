@@ -8,7 +8,7 @@
 #include <SPI.h>
 #include <Mcp320x.h>
 
-#define SPI_CS    	15 		   // SPI slave select
+#define SPI_CS    	5 		   // SPI slave select
 #define ADC_VREF    2500     // 3.3V Vref
 #define ADC_CLK     1600000  // SPI clock 1.6MHz
 
@@ -41,7 +41,7 @@ void loop() {
   Serial.println("Reading...");
 
   t1 = micros();
-  uint16_t raw = adc.read(MCP3208::Channel::SINGLE_4);
+  uint16_t raw = adc.read(MCP3208::Channel::SINGLE_7);
   t2 = micros();
 
   // get analog value
@@ -59,5 +59,5 @@ void loop() {
   Serial.print(static_cast<double>(t2 - t1) / 1000, 4);
   Serial.println("ms");
 
-  delay(2000);
+  delay(1000);
 }
